@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Suggestions(Mix it up)</title>
+    <script src="jquery-3.5.1.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+        <div class="product">
+                <div class="menu">
+                    <ul>
+                        <li><a data-filter="all" href="#">All</a></li>
+                        <li><a data-filter=".gt" href="#">GTA</a></li>
+                        <li><a data-filter=".wd" href="#">Watchdogs</a></li>
+                        <li><a data-filter=".fc" href="#">Far Cry</a></li>
+                        <li><a data-filter=".pb" href="#">PUBG</a></li>
+                        <li><a data-filter=".cd" href="#">Call Of Duty</a></li>
+                        <li><a data-filter=".cp" href="#">CyberPunk 2077</a></li>
+                        <li><a data-filter="none" href="#">None</a></li>
+                    </ul>
+                </div>
+            
+
+            <div class="gallp">
+                <div class="pbox mix gt"><img src="https://ae01.alicdn.com/kf/HTB18IC0UHvpK1RjSZFqq6AXUVXaE/Custom-Canvas-Wall-Prints-Arts-Grand-Theft-Auto-V-San-Andreas-Poster-GTA-5-Sexy-Beach.jpg" alt=""></div>
+                <div class="pbox mix wd"><img src="https://m.media-amazon.com/images/M/MV5BM2U1OWNlY2UtZmNlNi00NmExLWIwMzctMjZkMjc4NzM5MTBlXkEyXkFqcGdeQXVyMzY0MTE3NzU@._V1_.jpg" alt=""></div>
+                <div class="pbox mix gt"><img src="https://ae01.alicdn.com/kf/HTB18IC0UHvpK1RjSZFqq6AXUVXaE/Custom-Canvas-Wall-Prints-Arts-Grand-Theft-Auto-V-San-Andreas-Poster-GTA-5-Sexy-Beach.jpg" alt=""></div>
+                <div class="pbox mix wd"><img src="https://m.media-amazon.com/images/M/MV5BM2U1OWNlY2UtZmNlNi00NmExLWIwMzctMjZkMjc4NzM5MTBlXkEyXkFqcGdeQXVyMzY0MTE3NzU@._V1_.jpg" alt=""></div>
+                <div class="pbox mix fc"><img src="https://i.pinimg.com/originals/ef/34/bb/ef34bbb4de9d22e5f652ba4d82d0fd24.jpg" alt=""></div>
+                <div class="pbox mix pb"><img src="https://i.pinimg.com/originals/1e/b0/07/1eb0075317387869e6e2c7cf29a88fcb.jpg" alt=""></div>
+                <div class="pbox mix wd"><img src="https://m.media-amazon.com/images/M/MV5BM2U1OWNlY2UtZmNlNi00NmExLWIwMzctMjZkMjc4NzM5MTBlXkEyXkFqcGdeQXVyMzY0MTE3NzU@._V1_.jpg" alt=""></div>
+                <div class="pbox mix cd"><img src="https://www.trendsinternational.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/r/p/rp18009-1.jpg" alt=""></div>
+                <div class="pbox mix pb"><img src="https://i.pinimg.com/originals/1e/b0/07/1eb0075317387869e6e2c7cf29a88fcb.jpg" alt=""></div>
+                <div class="pbox mix cp"><img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/cacf18ee-ac31-4b9a-806e-c07783f57945/ddqcb8m-94c1fb3f-33df-4992-8d7b-1389465456cf.jpg/v1/fill/w_1024,h_1414,q_75,strp/cyberpunk_2077_poster_by_blackoutarts_ddqcb8m-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3siaGVpZ2h0IjoiPD0xNDE0IiwicGF0aCI6IlwvZlwvY2FjZjE4ZWUtYWMzMS00YjlhLTgwNmUtYzA3NzgzZjU3OTQ1XC9kZHFjYjhtLTk0YzFmYjNmLTMzZGYtNDk5Mi04ZDdiLTEzODk0NjU0NTZjZi5qcGciLCJ3aWR0aCI6Ijw9MTAyNCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.SuwvDmn6yaWDetG0alKd15__o1yQTaE15T5KFb5_9ug" alt=""></div>
+                <div class="pbox mix cd"><img src="https://www.trendsinternational.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/r/p/rp18009-1.jpg" alt=""></div>
+                <div class="pbox mix cp"><img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/cacf18ee-ac31-4b9a-806e-c07783f57945/ddqcb8m-94c1fb3f-33df-4992-8d7b-1389465456cf.jpg/v1/fill/w_1024,h_1414,q_75,strp/cyberpunk_2077_poster_by_blackoutarts_ddqcb8m-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3siaGVpZ2h0IjoiPD0xNDE0IiwicGF0aCI6IlwvZlwvY2FjZjE4ZWUtYWMzMS00YjlhLTgwNmUtYzA3NzgzZjU3OTQ1XC9kZHFjYjhtLTk0YzFmYjNmLTMzZGYtNDk5Mi04ZDdiLTEzODk0NjU0NTZjZi5qcGciLCJ3aWR0aCI6Ijw9MTAyNCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.SuwvDmn6yaWDetG0alKd15__o1yQTaE15T5KFb5_9ug" alt=""></div>
+            </div>
+        </div>
+    <script src="mixitup.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
